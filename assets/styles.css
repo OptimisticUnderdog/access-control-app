@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #1f1e1e;
+}
+
+.button {
+    padding: 20px 75px;
+    font-size: 20px;
+    text-decoration: solid;
+    background-color: #06090f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
